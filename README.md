@@ -1,6 +1,6 @@
 # Maximize, Minimize OCD shortcut script
 
-This tiny script is to change the default behaviour of maximize and minimize shortcuts which don't feel natural to me.
+This tiny script is to change the default behaviour of maximize and minimize shortcuts which don't feel natural to me. 
 
 This script does **NOT** work on **Wayland**
 
@@ -23,7 +23,12 @@ All of which would probably be installed if you don't use vanilla Arch or other 
 
 ## Setup
 
-Download the script and store it in ~/.local/bin which is the default directory for custom scripts. Now make it executable
+Download the script and store it in ~/.local/bin which is the default directory for custom scripts. 
+~~~
+curl -fLo ~/.local/bin/mm.sh --create-dirs \
+    https://raw.githubusercontent.com/RitwickVerma/maxminOCD/master/mm.sh
+~~~
+Now make it executable
 ~~~
 chmod +x mm.sh
 ~~~
